@@ -1,3 +1,44 @@
 *{
     font-family: 'Roboto', sans-serif;
 }
+
+/* BODY */
+
+body{
+    width: 90%;
+    margin: auto;
+}
+
+/* HEADER */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1%;
+}
+
+header nav {
+    display: flex;
+}
+
+header nav ul{
+    display: flex;
+    list-style-type: none;
+}
+
+header nav ul li{
+
+}
+
+header nav ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 1.7em;
+    margin-left: 20px;
+}
+
+header nav ul li a:hover{
+    color: #5b359c;
+    text-decoration: underline;
+}
