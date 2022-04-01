@@ -42,3 +42,26 @@ header nav ul li a:hover{
     color: #5b359c;
     text-decoration: underline;
 }
+
+/* MAIN */
+
+/* BANNIERE */
+
+.banniere{
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    background-image: url("../images/backgroung_image.jpg");
+}
+
+.banniere img{
+    width: 20%;
+}
+
+.banniere h1{
+    color: white;
+    font-size: 2.5em ;
+}
